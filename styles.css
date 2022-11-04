@@ -1,69 +1,69 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 16px;
-  }
-  
-  body {
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .label {
-    border: 2px solid black;
-    width: 270px;
-    margin: 20px auto;
-    padding: 0 7px;
-  }
-  
-  header h1 {
-    text-align: center;
-    margin: -4px 0;
-    letter-spacing: 0.15px
-  }
-  
-  p {
-    margin: 0;
-  }
-  
-  .divisor {
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
-    clear: right;
-  }
-  
-  .negrito {
-    font-weight: 800;
-  }
+  box-sizing: border-box;
+}
 
-  .direita {
-    float: right;
-  }
+html {
+  font-size: 16px;
+}
 
-  .lg {
-    height: 10px;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
-  .lg, .md {
-    background-color: black;
-    border: 0;
-  }
-  
-  .texto-sm {
-    font-size: 0.85rem
-  }
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
 
-  .info-calorias h1 {
-    margin: -5px -2px;
-    overflow: hidden;
-  }
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px
+}
 
-  .info-calorias span {
-    font-size: 1.2em;
-    margin-top: -7px;
-  }
+p {
+  margin: 0;
+}
 
-  .md {
-    height: 5px;
-  }
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+  clear: right;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.right {
+  float: right;
+}
+
+.lg {
+  height: 10px;
+}
+
+.lg, .md {
+  background-color: black;
+  border: 0;
+}
+
+.md {
+  height: 5px;
+}
+
+.sm-text {
+  font-size: 0.85rem;
+}
+
+.calories-info h1 {
+  margin: -5px -2px;
+  overflow: hidden;
+}
+
+.calories-info span {
+  font-size: 1.2em;
+  margin-top: -7px;
+}

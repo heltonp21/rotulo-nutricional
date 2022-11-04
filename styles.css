@@ -17,7 +17,7 @@
     padding: 0 7px;
   }
   
-  h1 {
+  header h1 {
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px
@@ -30,8 +30,40 @@
   .divisor {
     border-bottom: 1px solid #888989;
     margin: 2px 0;
+    clear: right;
   }
   
   .negrito {
     font-weight: 800;
+  }
+
+  .direita {
+    float: right;
+  }
+
+  .lg {
+    height: 10px;
+  }
+
+  .lg, .md {
+    background-color: black;
+    border: 0;
+  }
+  
+  .texto-sm {
+    font-size: 0.85rem
+  }
+
+  .info-calorias h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+  }
+
+  .info-calorias span {
+    font-size: 1.2em;
+    margin-top: -7px;
+  }
+
+  .md {
+    height: 5px;
   }
